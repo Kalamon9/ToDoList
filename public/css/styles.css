@@ -1,0 +1,122 @@
+body {
+
+  background-image: url("/Images/frame-ed.jpg");
+background-color: #e8ffff;
+ /* height: 500px; */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+  min-height: 1000px;
+  font-family: 'Montserrat', sans-serif;
+}
+.list-div{
+margin: 10% auto;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.box {
+  max-width: 400px;
+  margin: 0 auto 50px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+
+.heading {
+  background-color: #3b6978;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #3b6978;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #3b6978;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #3b6978;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: #84a9ac;
+  text-align: center;
+  }
+
+.bottom-container {
+  color: #EAF6F6;
+  padding: 40px 0 10px;
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #84a9ac;
+  margin: 30px 20px 0;
+}
+
+.footer-link:hover {
+  color: #3b6978;
+}
+
+.copyrights {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  color: #84a9ac;
+}
